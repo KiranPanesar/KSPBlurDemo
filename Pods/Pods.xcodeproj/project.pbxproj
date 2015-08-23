@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		057125E2CB9FA5110DFCCFD1A72E184E /* SOZOBitmapDataGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A74DCD0260EFC6FEDE2BA27109C20A /* SOZOBitmapDataGenerator.m */; };
+		1D7A76E27811A882C4BDF349686FDB01 /* UIColor+SOZOCompatibility.h in Headers */ = {isa = PBXBuildFile; fileRef = D131671F916982F5C7CB07094B8D0433 /* UIColor+SOZOCompatibility.h */; };
+		1EB8DD552A04E30AF4671E65E4A35410 /* SOZOChromoplast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 484618055B7A371B977B1FB611779890 /* SOZOChromoplast-dummy.m */; };
+		2225DBE6F903614F9C8D053AB6989E91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 538A9A4FB0719BC8832F5EE550BEAEC2 /* UIKit.framework */; };
+		31F637DEBA0D217CD7BCEB3462CA09B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4499062204CF42F64781A6E79245318 /* Foundation.framework */; };
+		3B14CC7192A9F2FDAE9D92C511758092 /* SOZOColorCube.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F9181797F840283FC89DC492E313257 /* SOZOColorCube.h */; };
+		4A9DA0A072ABE994BF81C712BFEEDA5E /* SOZOColorSorter.h in Headers */ = {isa = PBXBuildFile; fileRef = F2002CE361546DA9830C9F839B261D81 /* SOZOColorSorter.h */; };
+		593B3CFE99807141A367D0A559E9FAE9 /* CSStickyHeaderFlowLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A349A609C4A7614FA4E9017822DB1F8 /* CSStickyHeaderFlowLayout-dummy.m */; };
+		5EC0E97460E9330D021DCBAF47CB0D29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4499062204CF42F64781A6E79245318 /* Foundation.framework */; };
+		6DBCB447A217142B7A6C2B5E095A1899 /* UIImage+SOZOResize.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB0B8C0D07BB43586EBFA8E1C15285E /* UIImage+SOZOResize.m */; };
+		70D886D6AD0261E9B0192544D153C469 /* UIColor+SOZOCompatibility.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF51C5F6D9A89DC444E9083C40693DB /* UIColor+SOZOCompatibility.m */; };
+		A778AB3B29CA0D7B25F523819D09D80C /* SOZOCubeKeyGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = C19D464CB5CCD836C144EBAAC28DAE04 /* SOZOCubeKeyGenerator.m */; };
+		A86207F22F12D8AEC34641B3F35EC3A1 /* CSStickyHeaderFlowLayoutAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FF5ECC956410989F9CF5D3A49696C6E /* CSStickyHeaderFlowLayoutAttributes.h */; };
+		AF429BC860CFA607D98D02EE3E09D5D2 /* UIImage+SOZOResize.h in Headers */ = {isa = PBXBuildFile; fileRef = 72B6394B4A11298C533D903ABD11F57C /* UIImage+SOZOResize.h */; };
+		B67818C28024738FC48FCDFA99169EE0 /* SOZOChromoplast.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE71D57FE309D82D6835E22D8704094 /* SOZOChromoplast.m */; };
+		B8BAC95474EE1BA695DF7A837D08E2AB /* CSStickyHeaderFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 89FF14BD75635A91BE2CC5CFD5087173 /* CSStickyHeaderFlowLayout.m */; };
+		C40DB9F014339C41B5E795E2E9BD2163 /* SOZOColorSorter.m in Sources */ = {isa = PBXBuildFile; fileRef = E695E406584EDC8C4EC94058DD52855C /* SOZOColorSorter.m */; };
+		CABAC7FFE81A18D60F467E19207EBE16 /* CSStickyHeaderFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = E39B7ADBB6B545194E7D3477F55F793D /* CSStickyHeaderFlowLayout.h */; };
+		D642D82EA5837AAD2142558DA5D63143 /* SOZOChromoplast.h in Headers */ = {isa = PBXBuildFile; fileRef = D93F04976C2908881EF05CCFC9C81D1A /* SOZOChromoplast.h */; };
+		D722A1BDE9DE02A6E3D0EE8070336AD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4499062204CF42F64781A6E79245318 /* Foundation.framework */; };
+		DCAE4D5A19E2E0FDB1403ED1E865E2F2 /* SOZOBitmapDataGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FF7EF87A025261780E9BAF6F63505AD /* SOZOBitmapDataGenerator.h */; };
+		E0D07FF05FF9B85155A00783ABBF1D54 /* SOZOColorCube.m in Sources */ = {isa = PBXBuildFile; fileRef = 0106EBD35469FC9737BDE5F1338B9B80 /* SOZOColorCube.m */; };
+		E9A0AB3081FEFD084CFFB3411B27CF71 /* SOZOCubeKeyGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = CFED8DC169D6DCE6E2B4C4CF1103CBC7 /* SOZOCubeKeyGenerator.h */; };
+		EC909433397807C6C2909135D3279E90 /* CSStickyHeaderFlowLayoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B8561F7B0322EDA5EF7B0332AEF098 /* CSStickyHeaderFlowLayoutAttributes.m */; };
+		F00A7C3005F52044C1BFE83A5CF6CD71 /* Pods-BlurDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB30732A08A122BEEFB932E53812DD2 /* Pods-BlurDemo-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0600991BB1FD2771D2050C6E3E50844C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A48D2B77282EEA8FF3FBA6BD1FB5547;
+			remoteInfo = CSStickyHeaderFlowLayout;
+		};
+		F4FB749E39DBDB21032DF17A0584F518 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC68B19B98590AC9CFE75902E9D94F7D;
+			remoteInfo = SOZOChromoplast;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0106EBD35469FC9737BDE5F1338B9B80 /* SOZOColorCube.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SOZOColorCube.m; path = SOZOChromoplast/SOZOColorCube.m; sourceTree = "<group>"; };
+		0B761E5D24102AA3553E7A806B858798 /* SOZOChromoplast.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SOZOChromoplast.xcconfig; sourceTree = "<group>"; };
+		0DF51C5F6D9A89DC444E9083C40693DB /* UIColor+SOZOCompatibility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+SOZOCompatibility.m"; path = "SOZOChromoplast/UIColor+SOZOCompatibility.m"; sourceTree = "<group>"; };
+		1FF5ECC956410989F9CF5D3A49696C6E /* CSStickyHeaderFlowLayoutAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSStickyHeaderFlowLayoutAttributes.h; path = Classes/CSStickyHeaderFlowLayoutAttributes.h; sourceTree = "<group>"; };
+		24BDEF0B743A244BE9CC66B5AA8EDA29 /* libSOZOChromoplast.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSOZOChromoplast.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F9181797F840283FC89DC492E313257 /* SOZOColorCube.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SOZOColorCube.h; path = SOZOChromoplast/SOZOColorCube.h; sourceTree = "<group>"; };
+		316D17393F029E8E373A11A5FC4DD036 /* Pods-BlurDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BlurDemo-resources.sh"; sourceTree = "<group>"; };
+		35AE3029CFFFA311E94D298C20B15742 /* CSStickyHeaderFlowLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CSStickyHeaderFlowLayout-prefix.pch"; sourceTree = "<group>"; };
+		3783F5429F0D64B350E5D7F73B7EF763 /* libCSStickyHeaderFlowLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCSStickyHeaderFlowLayout.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		484618055B7A371B977B1FB611779890 /* SOZOChromoplast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SOZOChromoplast-dummy.m"; sourceTree = "<group>"; };
+		4FF7EF87A025261780E9BAF6F63505AD /* SOZOBitmapDataGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SOZOBitmapDataGenerator.h; path = SOZOChromoplast/SOZOBitmapDataGenerator.h; sourceTree = "<group>"; };
+		538A9A4FB0719BC8832F5EE550BEAEC2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		55A74DCD0260EFC6FEDE2BA27109C20A /* SOZOBitmapDataGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SOZOBitmapDataGenerator.m; path = SOZOChromoplast/SOZOBitmapDataGenerator.m; sourceTree = "<group>"; };
+		5EE71D57FE309D82D6835E22D8704094 /* SOZOChromoplast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SOZOChromoplast.m; path = SOZOChromoplast/SOZOChromoplast.m; sourceTree = "<group>"; };
+		5FB30732A08A122BEEFB932E53812DD2 /* Pods-BlurDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BlurDemo-dummy.m"; sourceTree = "<group>"; };
+		655211B1CAA377F37D8EC252F1EC8296 /* CSStickyHeaderFlowLayout-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "CSStickyHeaderFlowLayout-Private.xcconfig"; sourceTree = "<group>"; };
+		72B6394B4A11298C533D903ABD11F57C /* UIImage+SOZOResize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+SOZOResize.h"; path = "SOZOChromoplast/UIImage+SOZOResize.h"; sourceTree = "<group>"; };
+		86B8561F7B0322EDA5EF7B0332AEF098 /* CSStickyHeaderFlowLayoutAttributes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSStickyHeaderFlowLayoutAttributes.m; path = Classes/CSStickyHeaderFlowLayoutAttributes.m; sourceTree = "<group>"; };
+		89FF14BD75635A91BE2CC5CFD5087173 /* CSStickyHeaderFlowLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSStickyHeaderFlowLayout.m; path = Classes/CSStickyHeaderFlowLayout.m; sourceTree = "<group>"; };
+		936D80CEF5D9FD16E3D06D1F3B4524AE /* Pods-BlurDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BlurDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9A349A609C4A7614FA4E9017822DB1F8 /* CSStickyHeaderFlowLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CSStickyHeaderFlowLayout-dummy.m"; sourceTree = "<group>"; };
+		9E7923CAD018C3862DCF2F5BE57087BB /* Pods-BlurDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BlurDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		A381578ACDB9A74DD098EA461238F58F /* libPods-BlurDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BlurDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3E04E8E387CE3FF246AEB23B249237D /* CSStickyHeaderFlowLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CSStickyHeaderFlowLayout.xcconfig; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C19D464CB5CCD836C144EBAAC28DAE04 /* SOZOCubeKeyGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SOZOCubeKeyGenerator.m; path = SOZOChromoplast/SOZOCubeKeyGenerator.m; sourceTree = "<group>"; };
+		CAD7E7576015C12360DECAA27AEF5995 /* SOZOChromoplast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SOZOChromoplast-prefix.pch"; sourceTree = "<group>"; };
+		CFED8DC169D6DCE6E2B4C4CF1103CBC7 /* SOZOCubeKeyGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SOZOCubeKeyGenerator.h; path = SOZOChromoplast/SOZOCubeKeyGenerator.h; sourceTree = "<group>"; };
+		D131671F916982F5C7CB07094B8D0433 /* UIColor+SOZOCompatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+SOZOCompatibility.h"; path = "SOZOChromoplast/UIColor+SOZOCompatibility.h"; sourceTree = "<group>"; };
+		D51136EF4F2C652D744DAEFA9127ED8B /* SOZOChromoplast-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SOZOChromoplast-Private.xcconfig"; sourceTree = "<group>"; };
+		D93F04976C2908881EF05CCFC9C81D1A /* SOZOChromoplast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SOZOChromoplast.h; path = SOZOChromoplast/SOZOChromoplast.h; sourceTree = "<group>"; };
+		DE934660450F3B6E3B4270C40EC7BBAA /* Pods-BlurDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BlurDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E39B7ADBB6B545194E7D3477F55F793D /* CSStickyHeaderFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSStickyHeaderFlowLayout.h; path = Classes/CSStickyHeaderFlowLayout.h; sourceTree = "<group>"; };
+		E695E406584EDC8C4EC94058DD52855C /* SOZOColorSorter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SOZOColorSorter.m; path = SOZOChromoplast/SOZOColorSorter.m; sourceTree = "<group>"; };
+		EAB0B8C0D07BB43586EBFA8E1C15285E /* UIImage+SOZOResize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+SOZOResize.m"; path = "SOZOChromoplast/UIImage+SOZOResize.m"; sourceTree = "<group>"; };
+		F2002CE361546DA9830C9F839B261D81 /* SOZOColorSorter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SOZOColorSorter.h; path = SOZOChromoplast/SOZOColorSorter.h; sourceTree = "<group>"; };
+		F3632A1FA387536CA1C9902438735CE8 /* Pods-BlurDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BlurDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F4499062204CF42F64781A6E79245318 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65988E19CB4A49A3A1AAC16791CD5D8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC0E97460E9330D021DCBAF47CB0D29 /* Foundation.framework in Frameworks */,
+				2225DBE6F903614F9C8D053AB6989E91 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C1F71C4306CDB33B5C38992CBDA254C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31F637DEBA0D217CD7BCEB3462CA09B7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2AF61ABA5A9FDC1C5414F17A15978FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D722A1BDE9DE02A6E3D0EE8070336AD7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12FDAE233316EB4B1898215A98242C9B /* SOZOChromoplast */ = {
+			isa = PBXGroup;
+			children = (
+				4FF7EF87A025261780E9BAF6F63505AD /* SOZOBitmapDataGenerator.h */,
+				55A74DCD0260EFC6FEDE2BA27109C20A /* SOZOBitmapDataGenerator.m */,
+				D93F04976C2908881EF05CCFC9C81D1A /* SOZOChromoplast.h */,
+				5EE71D57FE309D82D6835E22D8704094 /* SOZOChromoplast.m */,
+				2F9181797F840283FC89DC492E313257 /* SOZOColorCube.h */,
+				0106EBD35469FC9737BDE5F1338B9B80 /* SOZOColorCube.m */,
+				F2002CE361546DA9830C9F839B261D81 /* SOZOColorSorter.h */,
+				E695E406584EDC8C4EC94058DD52855C /* SOZOColorSorter.m */,
+				CFED8DC169D6DCE6E2B4C4CF1103CBC7 /* SOZOCubeKeyGenerator.h */,
+				C19D464CB5CCD836C144EBAAC28DAE04 /* SOZOCubeKeyGenerator.m */,
+				D131671F916982F5C7CB07094B8D0433 /* UIColor+SOZOCompatibility.h */,
+				0DF51C5F6D9A89DC444E9083C40693DB /* UIColor+SOZOCompatibility.m */,
+				72B6394B4A11298C533D903ABD11F57C /* UIImage+SOZOResize.h */,
+				EAB0B8C0D07BB43586EBFA8E1C15285E /* UIImage+SOZOResize.m */,
+				A50A5F07E60D7E9739F30C36A6809A1A /* Support Files */,
+			);
+			path = SOZOChromoplast;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0FB9306D21AF23A056944AE037CBFFF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A7A7241F63E93C4149FEF1CF84D4341 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFC839C5D4DDE58366FD604563B4A2C6 /* Pods-BlurDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				DA446B21BE1FC8F03C0029361B18C12F /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				5A7A7241F63E93C4149FEF1CF84D4341 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A50A5F07E60D7E9739F30C36A6809A1A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B761E5D24102AA3553E7A806B858798 /* SOZOChromoplast.xcconfig */,
+				D51136EF4F2C652D744DAEFA9127ED8B /* SOZOChromoplast-Private.xcconfig */,
+				484618055B7A371B977B1FB611779890 /* SOZOChromoplast-dummy.m */,
+				CAD7E7576015C12360DECAA27AEF5995 /* SOZOChromoplast-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SOZOChromoplast";
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3783F5429F0D64B350E5D7F73B7EF763 /* libCSStickyHeaderFlowLayout.a */,
+				A381578ACDB9A74DD098EA461238F58F /* libPods-BlurDemo.a */,
+				24BDEF0B743A244BE9CC66B5AA8EDA29 /* libSOZOChromoplast.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFC839C5D4DDE58366FD604563B4A2C6 /* Pods-BlurDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F3632A1FA387536CA1C9902438735CE8 /* Pods-BlurDemo-acknowledgements.markdown */,
+				9E7923CAD018C3862DCF2F5BE57087BB /* Pods-BlurDemo-acknowledgements.plist */,
+				5FB30732A08A122BEEFB932E53812DD2 /* Pods-BlurDemo-dummy.m */,
+				316D17393F029E8E373A11A5FC4DD036 /* Pods-BlurDemo-resources.sh */,
+				936D80CEF5D9FD16E3D06D1F3B4524AE /* Pods-BlurDemo.debug.xcconfig */,
+				DE934660450F3B6E3B4270C40EC7BBAA /* Pods-BlurDemo.release.xcconfig */,
+			);
+			name = "Pods-BlurDemo";
+			path = "Target Support Files/Pods-BlurDemo";
+			sourceTree = "<group>";
+		};
+		D0FB9306D21AF23A056944AE037CBFFF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F4499062204CF42F64781A6E79245318 /* Foundation.framework */,
+				538A9A4FB0719BC8832F5EE550BEAEC2 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D7AA2F36EB372B5EC2692889F9DC197C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3E04E8E387CE3FF246AEB23B249237D /* CSStickyHeaderFlowLayout.xcconfig */,
+				655211B1CAA377F37D8EC252F1EC8296 /* CSStickyHeaderFlowLayout-Private.xcconfig */,
+				9A349A609C4A7614FA4E9017822DB1F8 /* CSStickyHeaderFlowLayout-dummy.m */,
+				35AE3029CFFFA311E94D298C20B15742 /* CSStickyHeaderFlowLayout-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CSStickyHeaderFlowLayout";
+			sourceTree = "<group>";
+		};
+		DA446B21BE1FC8F03C0029361B18C12F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC0D10D7847939269F8360CCDF8E5F43 /* CSStickyHeaderFlowLayout */,
+				12FDAE233316EB4B1898215A98242C9B /* SOZOChromoplast */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EC0D10D7847939269F8360CCDF8E5F43 /* CSStickyHeaderFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				E39B7ADBB6B545194E7D3477F55F793D /* CSStickyHeaderFlowLayout.h */,
+				89FF14BD75635A91BE2CC5CFD5087173 /* CSStickyHeaderFlowLayout.m */,
+				1FF5ECC956410989F9CF5D3A49696C6E /* CSStickyHeaderFlowLayoutAttributes.h */,
+				86B8561F7B0322EDA5EF7B0332AEF098 /* CSStickyHeaderFlowLayoutAttributes.m */,
+				D7AA2F36EB372B5EC2692889F9DC197C /* Support Files */,
+			);
+			path = CSStickyHeaderFlowLayout;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		542D4ACF7AED12A1D48E12564FBBC88F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABAC7FFE81A18D60F467E19207EBE16 /* CSStickyHeaderFlowLayout.h in Headers */,
+				A86207F22F12D8AEC34641B3F35EC3A1 /* CSStickyHeaderFlowLayoutAttributes.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDBABD83FFA273E1E1A3BE1C6EAEA507 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCAE4D5A19E2E0FDB1403ED1E865E2F2 /* SOZOBitmapDataGenerator.h in Headers */,
+				D642D82EA5837AAD2142558DA5D63143 /* SOZOChromoplast.h in Headers */,
+				3B14CC7192A9F2FDAE9D92C511758092 /* SOZOColorCube.h in Headers */,
+				4A9DA0A072ABE994BF81C712BFEEDA5E /* SOZOColorSorter.h in Headers */,
+				E9A0AB3081FEFD084CFFB3411B27CF71 /* SOZOCubeKeyGenerator.h in Headers */,
+				1D7A76E27811A882C4BDF349686FDB01 /* UIColor+SOZOCompatibility.h in Headers */,
+				AF429BC860CFA607D98D02EE3E09D5D2 /* UIImage+SOZOResize.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		74CE7DDE837A0F1DE78CC8163B257DA8 /* Pods-BlurDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A6B8B7ABC03AC0578BAE640A1883F5 /* Build configuration list for PBXNativeTarget "Pods-BlurDemo" */;
+			buildPhases = (
+				84EB7F8A8A29CBF4415C18A0E3206446 /* Sources */,
+				F2AF61ABA5A9FDC1C5414F17A15978FD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2D4BEC4C906BAAB3C1389746D7A0623 /* PBXTargetDependency */,
+				A215DC313F9843463D7C8852B307D569 /* PBXTargetDependency */,
+			);
+			name = "Pods-BlurDemo";
+			productName = "Pods-BlurDemo";
+			productReference = A381578ACDB9A74DD098EA461238F58F /* libPods-BlurDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9A48D2B77282EEA8FF3FBA6BD1FB5547 /* CSStickyHeaderFlowLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 595189A5D603C6FDABF713E09A0C996E /* Build configuration list for PBXNativeTarget "CSStickyHeaderFlowLayout" */;
+			buildPhases = (
+				C4F67057CFB1E1BB38D528114A33367E /* Sources */,
+				9C1F71C4306CDB33B5C38992CBDA254C /* Frameworks */,
+				542D4ACF7AED12A1D48E12564FBBC88F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CSStickyHeaderFlowLayout;
+			productName = CSStickyHeaderFlowLayout;
+			productReference = 3783F5429F0D64B350E5D7F73B7EF763 /* libCSStickyHeaderFlowLayout.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CC68B19B98590AC9CFE75902E9D94F7D /* SOZOChromoplast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F50CB16EE3506B3B807F185FD32DD1E5 /* Build configuration list for PBXNativeTarget "SOZOChromoplast" */;
+			buildPhases = (
+				CDD9AF0DF9026893E97E3BBB3E69FD32 /* Sources */,
+				65988E19CB4A49A3A1AAC16791CD5D8D /* Frameworks */,
+				DDBABD83FFA273E1E1A3BE1C6EAEA507 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SOZOChromoplast;
+			productName = SOZOChromoplast;
+			productReference = 24BDEF0B743A244BE9CC66B5AA8EDA29 /* libSOZOChromoplast.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A48D2B77282EEA8FF3FBA6BD1FB5547 /* CSStickyHeaderFlowLayout */,
+				74CE7DDE837A0F1DE78CC8163B257DA8 /* Pods-BlurDemo */,
+				CC68B19B98590AC9CFE75902E9D94F7D /* SOZOChromoplast */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84EB7F8A8A29CBF4415C18A0E3206446 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F00A7C3005F52044C1BFE83A5CF6CD71 /* Pods-BlurDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F67057CFB1E1BB38D528114A33367E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				593B3CFE99807141A367D0A559E9FAE9 /* CSStickyHeaderFlowLayout-dummy.m in Sources */,
+				B8BAC95474EE1BA695DF7A837D08E2AB /* CSStickyHeaderFlowLayout.m in Sources */,
+				EC909433397807C6C2909135D3279E90 /* CSStickyHeaderFlowLayoutAttributes.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDD9AF0DF9026893E97E3BBB3E69FD32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				057125E2CB9FA5110DFCCFD1A72E184E /* SOZOBitmapDataGenerator.m in Sources */,
+				1EB8DD552A04E30AF4671E65E4A35410 /* SOZOChromoplast-dummy.m in Sources */,
+				B67818C28024738FC48FCDFA99169EE0 /* SOZOChromoplast.m in Sources */,
+				E0D07FF05FF9B85155A00783ABBF1D54 /* SOZOColorCube.m in Sources */,
+				C40DB9F014339C41B5E795E2E9BD2163 /* SOZOColorSorter.m in Sources */,
+				A778AB3B29CA0D7B25F523819D09D80C /* SOZOCubeKeyGenerator.m in Sources */,
+				70D886D6AD0261E9B0192544D153C469 /* UIColor+SOZOCompatibility.m in Sources */,
+				6DBCB447A217142B7A6C2B5E095A1899 /* UIImage+SOZOResize.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A215DC313F9843463D7C8852B307D569 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SOZOChromoplast;
+			target = CC68B19B98590AC9CFE75902E9D94F7D /* SOZOChromoplast */;
+			targetProxy = F4FB749E39DBDB21032DF17A0584F518 /* PBXContainerItemProxy */;
+		};
+		C2D4BEC4C906BAAB3C1389746D7A0623 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CSStickyHeaderFlowLayout;
+			target = 9A48D2B77282EEA8FF3FBA6BD1FB5547 /* CSStickyHeaderFlowLayout */;
+			targetProxy = 0600991BB1FD2771D2050C6E3E50844C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1633907DCE1E3D13A119C018469153BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 655211B1CAA377F37D8EC252F1EC8296 /* CSStickyHeaderFlowLayout-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CSStickyHeaderFlowLayout/CSStickyHeaderFlowLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2D91596A4A3571027C7926C67E633DED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D51136EF4F2C652D744DAEFA9127ED8B /* SOZOChromoplast-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SOZOChromoplast/SOZOChromoplast-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		511103F7F15A7E8F83B268EA03462CAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CA22564B975258CEC47737ABCD6BD4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 655211B1CAA377F37D8EC252F1EC8296 /* CSStickyHeaderFlowLayout-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CSStickyHeaderFlowLayout/CSStickyHeaderFlowLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		71BC39DF21302D88D9BFCF3B319B902F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE934660450F3B6E3B4270C40EC7BBAA /* Pods-BlurDemo.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		89BD5C45FCDC30EE3BB112C6EB5679AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 936D80CEF5D9FD16E3D06D1F3B4524AE /* Pods-BlurDemo.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		92CC9C44F7FB20BE2DDE43EB1D6DA161 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D51136EF4F2C652D744DAEFA9127ED8B /* SOZOChromoplast-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SOZOChromoplast/SOZOChromoplast-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AA05AF9C3A14EE0E32F42C6E6D42D34F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18A6B8B7ABC03AC0578BAE640A1883F5 /* Build configuration list for PBXNativeTarget "Pods-BlurDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89BD5C45FCDC30EE3BB112C6EB5679AB /* Debug */,
+				71BC39DF21302D88D9BFCF3B319B902F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA05AF9C3A14EE0E32F42C6E6D42D34F /* Debug */,
+				511103F7F15A7E8F83B268EA03462CAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		595189A5D603C6FDABF713E09A0C996E /* Build configuration list for PBXNativeTarget "CSStickyHeaderFlowLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1633907DCE1E3D13A119C018469153BE /* Debug */,
+				6CA22564B975258CEC47737ABCD6BD4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F50CB16EE3506B3B807F185FD32DD1E5 /* Build configuration list for PBXNativeTarget "SOZOChromoplast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D91596A4A3571027C7926C67E633DED /* Debug */,
+				92CC9C44F7FB20BE2DDE43EB1D6DA161 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

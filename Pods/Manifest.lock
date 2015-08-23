@@ -1,0 +1,13 @@
+PODS:
+  - CSStickyHeaderFlowLayout (0.2.8)
+  - SOZOChromoplast (0.0.2)
+
+DEPENDENCIES:
+  - CSStickyHeaderFlowLayout
+  - SOZOChromoplast
+
+SPEC CHECKSUMS:
+  CSStickyHeaderFlowLayout: e919dd425fa12bba1155f66d87edfe540eb8f89a
+  SOZOChromoplast: a626464e4f31474dd5191ae55cffbab2a2feae52
+
+COCOAPODS: 0.38.2
